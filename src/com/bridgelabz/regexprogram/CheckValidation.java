@@ -56,4 +56,13 @@ public class CheckValidation {
         }else
             System.out.println("password2 is Invalid");
     }
+
+    void checkPassword3(){
+        System.out.println("Enter any password ");
+        String password3=sc.nextLine();
+        if (Pattern.matches("^[A-Z]{1}[a-z0-9]{7,}$",password3)){
+            System.out.println("password3 is Valid");
+        }else
+            System.out.println("password3 is Invalid");
+    }
 }
