@@ -74,4 +74,13 @@ public class CheckValidation {
         }else
             System.out.println("password4 is Invalid");
     }
+
+    void checkEmailSamples(){
+        System.out.println("Enter any Email  ");
+        String emailSamples=sc.nextLine();
+        if (Pattern.matches("^[0-9a-zA-Z]+([_+-.a-z0-9A-Z]+)*[@][a-zA-Z]+[.][a-z]{2,4}$",emailSamples)){
+            System.out.println("Email check  is Valid");
+        }else
+            System.out.println("Email check is Invalid");
+    }
 }
