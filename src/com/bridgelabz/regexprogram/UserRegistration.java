@@ -8,5 +8,6 @@ public class UserRegistration {
          CheckValidation valid = new CheckValidation();
          valid.checkFirstName();
          valid.checklastName();
+         valid.checkeMail();
     }
 }
