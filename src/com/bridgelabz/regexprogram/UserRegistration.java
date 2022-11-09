@@ -9,5 +9,6 @@ public class UserRegistration {
          valid.checkFirstName();
          valid.checklastName();
          valid.checkeMail();
+         valid.checkNumber();
     }
 }
