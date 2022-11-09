@@ -30,4 +30,13 @@ public class CheckValidation {
         }else
             System.out.println("Emaol id is Invalid");
     }
+
+    void checkNumber(){
+        System.out.println("Enter mobile Number ");
+        String mobile_number=sc.nextLine();
+        if (Pattern.matches("^[0-9]+\s[0-9]{10}$",mobile_number)){
+            System.out.println("Mobile number is Valid");
+        }else
+            System.out.println("Mobile number is Invalid");
+    }
 }
