@@ -39,4 +39,13 @@ public class CheckValidation {
         }else
             System.out.println("Mobile number is Invalid");
     }
+
+    void checkPassword(){
+        System.out.println("Enter any password ");
+        String password=sc.nextLine();
+        if (Pattern.matches("^[A-Z]{1}[a-z0-9]{7,}$",password)){
+            System.out.println("Mobile number is Valid");
+        }else
+            System.out.println("Mobile number is Invalid");
+    }
 }
